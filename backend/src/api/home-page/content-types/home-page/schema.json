@@ -1,0 +1,83 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Introduction": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fullCV": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pastWork": {
+      "type": "string"
+    },
+    "pastWorksIntro": {
+      "type": "text"
+    },
+    "pastWorks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pastworks.past-works"
+    },
+    "currentWorks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "currentworks.current-works"
+    },
+    "currentWorkTitle": {
+      "type": "string"
+    },
+    "currentWorkInfo": {
+      "type": "text"
+    },
+    "workWithMe": {
+      "type": "string"
+    },
+    "workWithMeContent": {
+      "type": "text"
+    },
+    "emailMe": {
+      "type": "string"
+    },
+    "briefMotivation": {
+      "type": "text"
+    },
+    "techStackInfo": {
+      "type": "richtext"
+    },
+    "myTechStack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "techstack.tech-stack"
+    }
+  }
+}

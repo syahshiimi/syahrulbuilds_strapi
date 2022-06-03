@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_pastworks_past_works",
+  "info": {
+    "displayName": "pastWorks",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pastWorkTitle": {
+      "type": "string"
+    },
+    "pastWorkInfo": {
+      "type": "text"
+    },
+    "pastWorkLink": {
+      "type": "string"
+    },
+    "pastWorkImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "techStack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "techstack.tech-stack"
+    }
+  }
+}

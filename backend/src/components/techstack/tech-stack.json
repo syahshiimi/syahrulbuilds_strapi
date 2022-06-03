@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_techstack_tech_stacks",
+  "info": {
+    "displayName": "techStack",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "programmingLang": {
+      "type": "json"
+    },
+    "frameworks": {
+      "type": "json"
+    },
+    "apps": {
+      "type": "json"
+    }
+  }
+}

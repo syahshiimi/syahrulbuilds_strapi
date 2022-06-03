@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "past_works",
+  "info": {
+    "singularName": "past-work",
+    "pluralName": "past-works",
+    "displayName": "Past Works",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projectTitle": {
+      "type": "string"
+    },
+    "projectYear": {
+      "type": "string"
+    },
+    "projectDescription": {
+      "type": "text"
+    },
+    "projectPurposeAndGoal": {
+      "type": "text"
+    },
+    "problemsAndChallenges": {
+      "type": "text"
+    },
+    "reflection": {
+      "type": "text"
+    },
+    "techStack": {
+      "type": "string"
+    },
+    "otherSkills": {
+      "type": "string"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}
