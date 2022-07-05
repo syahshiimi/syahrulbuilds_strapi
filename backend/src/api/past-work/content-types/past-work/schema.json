@@ -40,6 +40,11 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "projectStack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "techstack.tech-stack"
     }
   }
 }
