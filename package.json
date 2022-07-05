@@ -1,0 +1,7 @@
+{
+  "name": "syahrulbuilds_strapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/syahshiimi/syahrulbuilds_strapi.git",
+  "license": "MIT"
+}
